@@ -17,6 +17,11 @@ public class Rectangle implements Shape {
 
     @Override
     public double getPerimeter() {
-        return height * width;
+        return 2*height + 2*width;
+    }
+
+    @Override
+    public double getArea() {
+        return height*width;
     }
 }
