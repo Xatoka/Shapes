@@ -15,4 +15,9 @@ public class Square implements Shape {
     public double getPerimeter() {
         return side * NUMBER_OF_SIDES;
     }
+
+    @Override
+    public double getArea() {
+        return side*side;
+    }
 }
