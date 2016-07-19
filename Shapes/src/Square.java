@@ -1,7 +1,7 @@
 
 public class Square implements Shape {
     private double side;
-    private final double numberOfSide=4;
+    private static final double NUMBER_OF_SIDES = 4;
 
     public Square(double side) {
 
@@ -14,6 +14,6 @@ public class Square implements Shape {
 
     @Override
     public double getPerimeter() {
-        return side*numberOfSide;
+        return side * NUMBER_OF_SIDES;
     }
 }
