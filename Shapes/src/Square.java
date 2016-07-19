@@ -1,4 +1,3 @@
-
 public class Square implements Shape {
     private double side;
     private static final double NUMBER_OF_SIDES = 4;
