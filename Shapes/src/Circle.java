@@ -18,4 +18,9 @@ public class Circle implements Shape {
     public double getPerimeter() {
         return 2 * radius * Math.PI;
     }
+
+    @Override
+    public double getArea() {
+        return Math.PI*radius*radius;
+    }
 }
